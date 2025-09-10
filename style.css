@@ -1,0 +1,78 @@
+/* Full-page background & center alignment */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+}
+
+.game-container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  width: 90%;
+  max-width: 500px;
+}
+
+/* Headings */
+h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Word display */
+#word {
+  font-size: 2rem;
+  letter-spacing: 10px;
+  margin: 20px 0;
+}
+
+/* Input and buttons */
+input {
+  padding: 10px;
+  font-size: 1rem;
+  width: 60px;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid #333;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Guess button */
+button:nth-of-type(1) {
+  background-color: #333;
+  color: white;
+  margin-right: 5px;
+}
+
+/* Restart button */
+#restartBtn {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Messages & hints */
+#message, #hint, #attempts {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #333;
+}
