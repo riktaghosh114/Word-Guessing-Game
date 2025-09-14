@@ -23,6 +23,9 @@ Randomization in game development
 
 Responsive UI with HTML & CSS
 
+screenshot1:-
+
+<img width="1570" height="812" alt="image" src="https://github.com/user-attachments/assets/48a0734e-0331-406b-b96a-c13d82af63aa" />
 
 
 website link:-
